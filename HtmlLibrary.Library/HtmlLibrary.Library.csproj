@@ -6,6 +6,21 @@
     <Nullable>enable</Nullable>
     <AssemblyName>HtmlLibrary</AssemblyName>
     <RootNamespace>HtmlLibrary</RootNamespace>
+    <ApplicationIcon />
+    <StartupObject />
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://obiwanlansi.github.io/HtmlLibrary</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ObiWanLansi/HtmlLibrary</RepositoryUrl>
+    <PackageTags>html, fool, helper</PackageTags>
+    <Authors>ObiWanLansi</Authors>
+    <Description>A basic library for generating easily HTML.</Description>
+    <AssemblyVersion>0.1</AssemblyVersion>
+    <Product>HtmlLibrary</Product>
+    <PackageId>HtmlLibrary</PackageId>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Version>0.1</Version>
+    <RepositoryType>Github</RepositoryType>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
 </Project>
