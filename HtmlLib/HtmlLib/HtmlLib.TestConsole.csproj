@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>HtmlLibrary.TestConsole</AssemblyName>
+    <RootNamespace>HtmlLibrary</RootNamespace>
+    <StartupObject>HtmlLib.TestConsole</StartupObject>
+    <IsPublishable>False</IsPublishable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HtmlLibrary.Library\HtmlLibrary.Library.csproj" />
+  </ItemGroup>
+
+</Project>
