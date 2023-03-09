@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 
-namespace TestConsole.Html2.Tags.Body;
+namespace HtmlLibrary.Tags.BodyTags;
 
 
 
@@ -40,7 +40,7 @@ public abstract class TableRow<T> : HtmlContent where T : TableCell
     //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-    public TableRow(params object[] content)
+    protected TableRow(params object[] content)
     {
         Cells = new();
 
@@ -101,9 +101,9 @@ public sealed class TableDataRows : List<TableDataRow>
 
 public sealed class Table : HtmlContent
 {
-    public TableHeaderRow HeaderRow { get; set; }
+    public TableHeaderRow? HeaderRow { get; set; }
 
-    public TableDataRows DataRows { get; set; }
+    public TableDataRows? DataRows { get; set; }
 
     //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

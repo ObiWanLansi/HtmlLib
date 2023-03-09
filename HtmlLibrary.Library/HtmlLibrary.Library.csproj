@@ -23,4 +23,8 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="DoofesZeug" Version="0.2.3.1" />
+  </ItemGroup>
+
 </Project>

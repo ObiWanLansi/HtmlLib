@@ -1,13 +1,15 @@
 ﻿using System.Text;
 
+using HtmlLibrary.Tags.HeaderTags;
 
-namespace TestConsole.Html2;
+
+namespace HtmlLibrary.Tags;
 
 
 
 public class Head
 {
-    public Title Title { get; set; }
+    public Title? Title { get; set; }
 
     //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

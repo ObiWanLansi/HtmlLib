@@ -3,7 +3,7 @@
 using DoofesZeug.Extensions;
 
 
-namespace TestConsole.Html2;
+namespace HtmlLibrary.Tags.BodyTags;
 
 
 
@@ -11,7 +11,7 @@ public sealed class Image : HtmlContent
 {
     public string Source { get; set; }
 
-    public string Alternate { get; set; }
+    public string? Alternate { get; set; }
 
     public uint? Width { get; set; }
 
@@ -20,7 +20,7 @@ public sealed class Image : HtmlContent
     //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-    public Image(string strSource, string strAlternate = null, uint? iWidth = null, uint? iHeight = null)
+    public Image(string strSource, string? strAlternate = null, uint? iWidth = null, uint? iHeight = null)
     {
         this.Source = strSource;
         this.Alternate = strAlternate;

@@ -3,7 +3,7 @@
 using DoofesZeug.Extensions;
 
 
-namespace TestConsole.Html2;
+namespace HtmlLibrary.Tags.BodyTags;
 
 
 
@@ -13,12 +13,12 @@ public sealed class Link : HtmlContent
 
     public string Href { get; set; }
 
-    public string Target { get; set; }
+    public string? Target { get; set; }
 
     //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-    public Link(string strCaption, string strHref, string strTarget = null)
+    public Link(string strCaption, string strHref, string? strTarget = null)
     {
         this.Caption = strCaption;
         this.Href = strHref;

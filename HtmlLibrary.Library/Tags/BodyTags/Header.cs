@@ -1,4 +1,4 @@
-﻿namespace TestConsole.Html2.Tags.Content.Body;
+﻿namespace HtmlLibrary.Tags.BodyTags;
 
 
 

@@ -1,16 +1,16 @@
 ﻿using System.Text;
 
 
-namespace TestConsole.Html2;
+namespace HtmlLibrary;
 
 
 
 public abstract class HtmlContent
 {
-    public string Class { get; set; }
+    public string? Class { get; set; }
 
 
-    public string Style { get; set; }
+    public string? Style { get; set; }
 
     //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

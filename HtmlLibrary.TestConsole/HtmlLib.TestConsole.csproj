@@ -7,9 +7,13 @@
     <Nullable>enable</Nullable>
     <AssemblyName>HtmlLibrary.TestConsole</AssemblyName>
     <RootNamespace>HtmlLibrary</RootNamespace>
-    <StartupObject>HtmlLib.TestConsole</StartupObject>
+    <StartupObject></StartupObject>
     <IsPublishable>False</IsPublishable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DoofesZeug" Version="0.2.3.1" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\HtmlLibrary.Library\HtmlLibrary.Library.csproj" />

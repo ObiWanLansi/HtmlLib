@@ -1,15 +1,15 @@
 ﻿using System.Data;
 
-using TestConsole.Html2.Tags.Body;
+using HtmlLibrary.Tags.BodyTags;
 
 
-namespace TestConsole.Html2.Converter;
+namespace HtmlLibrary.Converter;
 
 
 
 public static class HtmlConverter
 {
-    public static Table GetTable(DataTable dt, string rowStyle = null, string headerStyle = null, string dataStyle = null)
+    public static Table GetTable(DataTable dt, string? rowStyle = null, string? headerStyle = null, string? dataStyle = null)
     {
         Table table = new()
         {
@@ -28,6 +28,7 @@ public static class HtmlConverter
         foreach (DataRow dr in dt.Rows)
         {
             TableDataRow datarow = new() { Style = rowStyle };
+            //TODO: Check if null or DBNull
             foreach (object item in dr.ItemArray)
             {
                 datarow.Cells.Add(new TableData(item) { Style = dataStyle });
